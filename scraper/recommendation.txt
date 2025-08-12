@@ -1,3 +1,0 @@
-in this we have to use chrome driver and selenium for webscraping 
-so if i want to use this project somewhere else then i have to download the chrome driver and all 
-this is mac so install it wisely
