@@ -95,10 +95,8 @@ cd teamup/server
 npm install
 
 # create server/.env with these values
-cat > .env <<EOL
 MONGO_URI=mongodb://localhost:27017/devmate
 JWT_SECRET=devmate_super_secret_token
-EOL
 
 # start backend (use your dev script, e.g. nodemon)
 npm run dev
@@ -114,11 +112,9 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# create scraper/.env
-cat > .env <<EOL
+# create scraper/.env with these values
 MONGO_URI=mongodb://localhost:27017
 MONGO_DB_NAME=devmate
-EOL
 
 # run the scraper (example)
 python3 devpost_scraper.py
@@ -130,11 +126,9 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# create suggestion-engine/.env
-cat > .env <<EOL
+# create suggestion-engine/.env with this values
 MONGO_URI=mongodb://localhost:27017
 DB_NAME=devmate
-EOL
 
 # recommended: run with explicit port 8000
 uvicorn main:app --reload --port 8000
