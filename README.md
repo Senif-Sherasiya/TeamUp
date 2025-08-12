@@ -13,16 +13,16 @@ Built with:
 
 ---
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
-teamup/
-├── client/               # React + Vite frontend
-├── server/               # Express backend (Node.js + MongoDB)
-│   └── scripts/          # Utility scripts for populating the database
-├── scraper/              # Python scraper for fetching hackathon/project data
-└── suggestion-engine/    # Python FastAPI service for recommendations
+- **teamup/**
+  - **client/** – React + Vite frontend
+  - **server/** – Express backend (Node.js + MongoDB)
+    - **scripts/** – Utility scripts for populating the database
+  - **scraper/** – Python scraper for fetching hackathon/project data
+  - **suggestion-engine/** – Python FastAPI service for recommendations
+
 
 ## ✨ Features
 - 🔍 **Discover Projects** – Browse project ideas posted by others
