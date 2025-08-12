@@ -1,0 +1,43 @@
+# ---------------------------------------------------------
+# Node.js / JavaScript (Client + Server)
+# ---------------------------------------------------------
+client/node_modules/
+server/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+client/dist/
+server/dist/
+client/build/
+server/build/
+
+# ---------------------------------------------------------
+# Python (Scraper + Suggestion Engine)
+# ---------------------------------------------------------
+scraper/venv/
+suggestion-engine/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python environment files
+.env
+*.env
+
+# ---------------------------------------------------------
+# Editor / OS specific files
+# ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------------------------------------------
+# Miscellaneous
+# ---------------------------------------------------------
+*.sqlite3
